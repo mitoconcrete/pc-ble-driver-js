@@ -323,8 +323,8 @@ class Adapter extends EventEmitter {
     _getDefaultEnableBLEParams() {
         return {
             gap_enable_params: {
-                periph_conn_count: 1,
-                central_conn_count: 7,
+                periph_conn_count: 0,
+                central_conn_count: 8,
                 central_sec_count: 1,
             },
             gatts_enable_params: {
